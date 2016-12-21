@@ -1,0 +1,10 @@
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\Calculator.exe
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\mscorlib.dll
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\normidna.nlp
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\normnfc.nlp
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\normnfd.nlp
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\normnfkc.nlp
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\normnfkd.nlp
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\obj\x86\Release\Calculator.csprojResolveAssemblyReference.cache
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\obj\x86\Release\Calculator.exe
+C:\aula\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\UserInput.dll

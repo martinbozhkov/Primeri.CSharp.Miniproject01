@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{36A2DCE9-9F74-4EFC-91B0-B0BA16466958}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator\Program.cs">
+    <Files>
+      <File FileName="Calculator\Program.cs" Line="21" Column="1" />
+      <File FileName="UserInput\UserInput.cs" Line="12" Column="69" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MP01" expanded="True">
+            <Node name="Calculator" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="UserInput" expanded="True">
+              <Node name="References" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
