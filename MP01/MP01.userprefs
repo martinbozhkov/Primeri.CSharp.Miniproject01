@@ -4,25 +4,11 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator\Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UserInput\UserInput.cs">
     <Files>
-      <File FileName="Calculator\Program.cs" Line="21" Column="1" />
-      <File FileName="UserInput\UserInput.cs" Line="12" Column="69" />
+      <File FileName="Calculator\Program.cs" Line="18" Column="3" />
+      <File FileName="UserInput\UserInput.cs" Line="12" Column="6" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MP01" expanded="True">
-            <Node name="Calculator" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-            <Node name="UserInput" expanded="True">
-              <Node name="References" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
