@@ -4,13 +4,14 @@ namespace UserInput
 	public class UInput
 	{
 		About.Me about = new About.Me();
+		Colors.ForCLI _c = new Colors.ForCLI();
 
 		public UInput()
 		{
 		}
 		public void sayHello()
 		{
-			Console.WriteLine("Добре дошли в " + about.shortName + " " + about.version + "\n\n");
+			_c.Default(); Console.WriteLine("Добре дошли в " + about.shortName + " " + about.version + "\n");
 		}
 		public void getUserCommands()
 		{
@@ -18,15 +19,20 @@ namespace UserInput
 			do
 			{
 				//Взимане на команда
-				Console.Write("$ ");
-				_command = Console.ReadLine();
+				_c.Prompt (); Console.Write("$ ");
+				_c.Command (); _command = Console.ReadLine();
 
 				//Проверка за налични команди
-				if (_command.ToLower().Contains("команда1")) Console.WriteLine("\nСтартирана е Команда 1\n");
-				if (_command.ToLower().Contains("Команда2")) Console.WriteLine("\nСтартирана е Команда 2\n");
-				if (_command.ToLower().Contains("Команда3")) Console.WriteLine("\nСтартирана е Команда 3\n");
+				if (_command.ToLower().Contains("команда1"))
+				{
+					_c.Default(); Console.Write("Стартирана е ");
+					_c.Result(); Console.WriteLine("Команда 1\n");
+				}
 
-			} while (_command.ToLower() != "изход");
+				//if (_command.ToLower().Contains("Команда2")) Console.WriteLine("\nСтартирана е Команда 2\n");
+				//if (_command.ToLower().Contains("Команда3")) Console.WriteLine("\nСтартирана е Команда 3\n");
+
+			} while (_command.ToLower() != "изход\n");
 		}
 		public void justTesting()
 		{

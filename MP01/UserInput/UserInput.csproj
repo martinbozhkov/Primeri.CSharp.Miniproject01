@@ -38,6 +38,10 @@
       <Project>{224CA8C1-2484-455D-AA44-3B61C6EA98BC}</Project>
       <Name>About</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Colors\Colors.csproj">
+      <Project>{82686EB0-003F-4973-B1BA-A1B8B3EE69C0}</Project>
+      <Name>Colors</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
