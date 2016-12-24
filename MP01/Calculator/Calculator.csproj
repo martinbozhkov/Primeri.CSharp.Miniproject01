@@ -40,6 +40,10 @@
       <Project>{D930E2D0-E782-4ACE-8E42-B5F435C7DBF8}</Project>
       <Name>UserInput</Name>
     </ProjectReference>
+    <ProjectReference Include="..\About\About.csproj">
+      <Project>{224CA8C1-2484-455D-AA44-3B61C6EA98BC}</Project>
+      <Name>About</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
