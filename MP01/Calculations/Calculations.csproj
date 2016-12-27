@@ -33,6 +33,8 @@
     <Compile Include="Calculations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Formula01.cs" />
+    <Compile Include="Formula02.cs" />
+    <Compile Include="Formula03.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Colors\Colors.csproj">

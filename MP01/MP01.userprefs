@@ -7,9 +7,12 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="UserInput\UserInput.cs">
     <Files>
       <File FileName="Calculator\Program.cs" Line="8" Column="25" />
-      <File FileName="UserInput\UserInput.cs" Line="31" Column="13" />
-      <File FileName="Calculations\Calculations.cs" Line="6" Column="14" />
-      <File FileName="Calculations\Formula01.cs" Line="34" Column="19" />
+      <File FileName="UserInput\UserInput.cs" Line="70" Column="7" />
+      <File FileName="Calculations\Calculations.cs" Line="40" Column="1" />
+      <File FileName="Calculations\Formula01.cs" Line="19" Column="44" />
+      <File FileName="Calculations\Formula02.cs" Line="20" Column="13" />
+      <File FileName="Calculations\Formula03.cs" Line="23" Column="26" />
+      <File FileName="Colors\ForCLI.cs" Line="10" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />

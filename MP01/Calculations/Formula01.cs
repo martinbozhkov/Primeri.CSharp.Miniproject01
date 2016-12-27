@@ -29,15 +29,21 @@ namespace Calculations
 					//Изчисления
 					double _result = 0;
 
-					if (runCalculations (param, out _result))
+					if (runCalculations(param, out _result))
 					{
 						_c.Default(); Console.Write("\nОбема на строителната яма е: ");
-						_c.Result();  Console.Write (_result.ToString("N2"));
+						_c.Result(); Console.Write(_result.ToString("N2"));
 						_c.Default(); Console.WriteLine(" м3\n");
 					}
 					else {
-						_c.Default(); Console.WriteLine("Има грешно въведени параметри. Можете да проверите синтаксиса с параметъра '-п'\n");
+						_c.Default(); Console.WriteLine("\nИма грешно въведени параметри. \nС параметъра '-п' можете да видите синтаксиса на командата\n");
 					}
+
+				}
+
+				if (param.Length > 0 && param.Length < 2 && _userInput.ToLower().Contains("яма"))
+				{
+					_c.Default(); Console.WriteLine("\nИма грешно въведени параметри. \nС параметъра '-п' можете да видите синтаксиса на командата\n");
 				}
 
 			}catch{
